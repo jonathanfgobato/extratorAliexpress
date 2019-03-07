@@ -13,7 +13,7 @@ namespace ExtratorHtml
         {
             
             string formUrl = "https://login.aliexpress.com/"; // NOTE: This is the URL the form POSTs to, not the URL of the form (you can find this in the "action" attribute of the HTML's form tag
-            //string formParams = string.Format("fm-login-id={0}&fm-login-password={1}", "jonathangobato@hotmail.com", "crw21k9u");
+            //string formParams = string.Format("fm-login-id={0}&fm-login-password={1}", "jonathangobato@hotmail.com", "senha");
             string formParams = string.Format("loginId={0}&password={1}", "lingsearcher@gmail.com", "lingse@rcher"); 
             string cookieHeader;
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(formUrl);
